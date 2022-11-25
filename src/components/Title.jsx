@@ -5,12 +5,12 @@ class Title extends React.Component {
   render() {
     const { headline } = this.props;
     return (
-      <h2>{ headline }</h2>
+      <h2>{headline}</h2>
     );
   }
 }
 
-Title.PropTypes = {
+Title.propTypes = {
   headline: PropTypes.string.isRequired,
 };
 
