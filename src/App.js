@@ -10,7 +10,6 @@ class App extends React.Component {
       <main>
         <Header />
         <SolarSystem />
-        <PlanetCard />
         <Missions />
       </main>
     );
